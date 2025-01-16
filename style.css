@@ -22,7 +22,7 @@ header {
   align-items: center;
   gap: 1rem;
 }
-.logo h1{
+.logo h1 {
   cursor: pointer;
 }
 .logo .search {
@@ -40,22 +40,69 @@ header {
   padding: 0.5rem 1rem;
   border-radius: 20px;
 }
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-nav ul li a{
+nav ul li a {
   text-decoration: none;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   color: #cdcdcd;
   border: 0;
   outline: 0;
   font-size: 1.4rem;
   font-weight: bolder;
-  transition: all .25s linear;
+  transition: all 0.25s linear;
 }
 nav ul li a:hover {
-color: rgb(212, 191, 0);
+  color: rgb(212, 191, 0);
+}
+
+.hero {
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("./images/heor.jpg");
+  background-position: right;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h3 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.hero p {
+  width: 70%;
+  margin: 0 auto;
+  color: #444;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.btn {
+  text-align: center;
+  margin: 1.5rem auto;
+  display: block;
+  padding: 0.75rem 3rem;
+  border-radius: 0.5rem;
+  outline: 0;
+  font-size: 1.2rem;
+  background: rgb(240, 219, 35);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  border: 1px solid transparent;
+}
+.btn:hover {
+  color: rgb(212, 191, 0);
+  background: rgb(17, 18, 35);
+}
+.spacer{
+  background: #efefef;
+  height: 50rem;
 }
